@@ -24,7 +24,7 @@ def export_to_word(formatted_lines, filename):
     document = Document()
     style = document.styles['Normal']
     font = style.font
-    font.name = 'Candara'
+    font.name = 'Calibri'
     font.size = Pt(12)
 
     for formatted_words in formatted_lines:
